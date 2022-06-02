@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Complaint App</title>
+</head>
+<body>
+    <h1>Where can we cause trouble today?</h1>
+    <form>
+        <select name="# of Complaints" id="complaint-limit">
+            <option value="1">1</option>
+            <option value="5" selected>5</option>
+            <option value="10">10</option>
+            <option value="15">15</option>
+            <option value="20">20</option>
+            <option value="50">50</option>
+            <option value="75">75</option>
+            <option value="100">100</option>
+        </select>
+        <button class="borough-button manhattan-btn">Manhattan</button>
+        <button class="borough-button brooklyn-btn">Brooklyn</button>
+        <button class="borough-button queens-btn">Queens</button>
+        <button class="borough-button statenisland-btn">Staten Island</button>
+        <button class="borough-button bronx-button">Bronx</button>
+    </form>
+    <section class="complaint-section">
+        <ul class="complaint-ul"></ul>
+
+    </section>
+    <section class="complaint-tracker" >
+        <h1>Complaint Incidences:</h1>
+        <ul class="incidence-ul">
+            
+        </ul>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

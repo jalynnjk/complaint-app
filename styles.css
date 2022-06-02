@@ -1,0 +1,15 @@
+body {
+    text-align: center;
+}
+.police-action-div {
+    display: none
+}
+.wdpd-btns {
+    margin-left: 10px;
+}
+ul {
+    list-style: none;
+}
+.complaint-li {
+    margin: 10px;
+}
